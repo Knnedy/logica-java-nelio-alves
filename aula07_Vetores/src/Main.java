@@ -1,5 +1,6 @@
 import java.util.Locale;
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class Main {
 
@@ -9,7 +10,6 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		
 		int N, i;
-		
 		System.out.print("Quantos números você vai digitar? ");
 		N = sc.nextInt();
 		
@@ -19,12 +19,13 @@ public class Main {
 			System.out.print("Digite um número: ");
 			doubleVet[i] = sc.nextDouble();
 		}
-		
 		System.out.println("\nNÚMEROS DIGITADOS: ");
 		for (i = 0; i < N; i++) {
 			System.out.println(String.format("%.1f", doubleVet[i]));
 		}
 		
+		System.out.println("\nArray gerada: \n" + Arrays.toString(doubleVet));
+		System.out.println("Tamanho do Array: " + doubleVet.length);
 		sc.close();
 		
 	}
