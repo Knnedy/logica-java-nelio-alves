@@ -26,6 +26,7 @@ public class Main {
 		
 		System.out.println("\nArray gerada: \n" + Arrays.toString(doubleVet));
 		System.out.println("Tamanho do Array: " + doubleVet.length);
+		
 		sc.close();
 		
 	}
