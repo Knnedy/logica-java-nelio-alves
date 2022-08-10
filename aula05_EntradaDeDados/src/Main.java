@@ -39,7 +39,11 @@ public class Main {
 			System.out.println("Salário da segunda pessoa: R$" + String.format("%.2f", salario2));
 			System.out.println("Idade: " + idade);
 			System.out.println("Sexo: " + sexo);
-			
+			System.out.println("--------------------------------------");
+			System.out.println("------------------FIM-----------------");
+			System.out.println("--------------------------------------");
+
+
 		}	
 	}
 }
